@@ -12,10 +12,7 @@
 			 <package name="Live_testcases"></package>
 		</packages>
 	 	
-	 	<classes> 
-	 			 		 
-		</classes>
- 	</test> 
+	 	</test> 
 </suite> 
 
 		<!-- 	

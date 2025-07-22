@@ -9,11 +9,32 @@
     <parameter name="Password1" value="mypassword"/>
     <parameter name="Password" value="mypassword"/>
     <classes>
-      <class name="ipltesting.Amazon">
+      <class name="ipltesting.ReadExcel">
         <methods>
-          <include name="software"/>
+          <include name="WriteExcel"/>
         </methods>
-      </class> <!-- ipltesting.Amazon -->
+      </class> <!-- ipltesting.ReadExcel -->
+      <class name="ipltesting.SoftAssertExample">
+        <methods>
+          <include name="tc2"/>
+        </methods>
+      </class> <!-- ipltesting.SoftAssertExample -->
+      <class name="ipltesting.RobotExample">
+        <methods>
+          <include name="robotExample"/>
+        </methods>
+      </class> <!-- ipltesting.RobotExample -->
+      <class name="ipltesting.Rollsroyce">
+        <methods>
+          <include name="mediaNavigation"/>
+        </methods>
+      </class> <!-- ipltesting.Rollsroyce -->
+      <class name="ipltesting.ScrollExample">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="amazonScrolling"/>
+        </methods>
+      </class> <!-- ipltesting.ScrollExample -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
