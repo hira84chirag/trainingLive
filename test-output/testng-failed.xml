@@ -5,11 +5,11 @@
     <parameter name="password" value="mypassword"/>
     <parameter name="uname" value="software@qa.com"/>
     <classes>
-      <class name="Live_testcases.StaleElement_Exp">
+      <class name="basic.Flipkart">
         <methods>
-          <include name="waitExample"/>
+          <include name="software"/>
         </methods>
-      </class> <!-- Live_testcases.StaleElement_Exp -->
+      </class> <!-- basic.Flipkart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

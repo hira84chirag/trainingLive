@@ -6,16 +6,14 @@
 		<parameter name="uname" value="software@qa.com"></parameter>
 		<parameter name="password" value="mypassword"></parameter>
 
-
- 	 	<classes>
- 	 		<class name="basic.Flipkart"></class>
-		</classes>
-		
+			<packages>
+				<package name="basic"></package>
+			</packages>		
  	</test> 
 </suite> 
 
 <!-- 		<packages>
-				<package name="Live_testcases"></package>
+				<package name="basic"></package>
 			</packages>
  -->
 

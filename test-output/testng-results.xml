@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-23T20:06:26 IST" name="Default suite" finished-at="2025-07-23T20:06:33 IST" duration-ms="6644">
+  <suite started-at="2025-07-23T22:40:27 IST" name="Suite" finished-at="2025-07-23T22:40:33 IST" duration-ms="5442">
     <groups>
     </groups>
-    <test started-at="2025-07-23T20:06:26 IST" name="Default test" finished-at="2025-07-23T20:06:33 IST" duration-ms="6644">
-      <class name="basic.ArrayNumber">
-        <test-method signature="ArrayResult()[pri:0, instance:basic.ArrayNumber@4c12331b]" started-at="2025-07-23T20:06:26 IST" name="ArrayResult" finished-at="2025-07-23T20:06:33 IST" duration-ms="6594" status="PASS">
+    <test started-at="2025-07-23T22:40:27 IST" name="Test" finished-at="2025-07-23T22:40:33 IST" duration-ms="5442">
+      <class name="basic.Flipkart">
+        <test-method signature="software()[pri:0, instance:basic.Flipkart@7586beff]" started-at="2025-07-23T22:40:27 IST" name="software" finished-at="2025-07-23T22:40:33 IST" duration-ms="5369" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ArrayResult -->
-      </class> <!-- basic.ArrayNumber -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- software -->
+      </class> <!-- basic.Flipkart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
