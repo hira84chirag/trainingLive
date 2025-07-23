@@ -5,11 +5,6 @@
     <parameter name="password" value="mypassword"/>
     <parameter name="uname" value="software@qa.com"/>
     <classes>
-      <class name="Live_testcases.EdurekaLogin">
-        <methods>
-          <include name="Edureka"/>
-        </methods>
-      </class> <!-- Live_testcases.EdurekaLogin -->
       <class name="Live_testcases.StaleElement_Exp">
         <methods>
           <include name="waitExample"/>
