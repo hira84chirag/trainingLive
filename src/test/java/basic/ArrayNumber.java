@@ -1,25 +1,16 @@
 package basic;
-
-import java.awt.Desktop.Action;
-import java.security.Key;
 import java.util.Arrays;
-
-// All users from users tableA and TableB , Attendance date='27-Mar-2025'
-
-// Select * from TableA as a LEFT JOIN TableB as b ON
-// a.employeed_id=b.employeed_id Where b.date="27-Mar-2025";
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class ArrayNumber {
 	WebDriver driver;
-	
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public  void ArrayResult() throws InterruptedException {
 		// TODO Auto-generated method stub
 			
 				int[] numbers = {4, 3, 0, 8, 0, 0, 2};		        

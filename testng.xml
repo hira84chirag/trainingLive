@@ -5,17 +5,17 @@
 		
 		<parameter name="uname" value="software@qa.com"></parameter>
 		<parameter name="password" value="mypassword"></parameter>
-		
-		<packages>
-				<package name="Live_testcases"></package>
-			</packages>
 
+
+ 	 	<classes>
+ 	 		<class name="basic.Flipkart"></class>
+		</classes>
+		
  	</test> 
 </suite> 
 
-
-
-<!-- 	 	<classes>
-		<class name="ipltesting.GroupsTesting" />
-		</classes>
+<!-- 		<packages>
+				<package name="Live_testcases"></package>
+			</packages>
  -->
+

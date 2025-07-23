@@ -6,9 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import Util.CommonFunctions;
-import java.net.HttpURLConnection;
-import java.net.URI;
-import java.time.Duration;
+
 
 public class Flipkart extends BaseTest{
 	@Test

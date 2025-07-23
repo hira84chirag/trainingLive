@@ -1,6 +1,5 @@
 package basic;
 // Find out smallest word in String
-
 public class Example1 {
 
 	public static void main(String[] args) {
