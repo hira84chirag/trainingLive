@@ -7,11 +7,15 @@
 		<parameter name="password" value="mypassword"></parameter>
 		
 		<packages>
-			
+				<package name="Live_testcases"></package>
 			</packages>
 
-	 	<classes>
-			<class name="ipltesting.GroupsTesting" />
-		</classes>
  	</test> 
 </suite> 
+
+
+
+<!-- 	 	<classes>
+		<class name="ipltesting.GroupsTesting" />
+		</classes>
+ -->

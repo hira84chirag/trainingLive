@@ -20,24 +20,24 @@ public class Obj_Edureka {
 	@FindBy(xpath ="//button[starts-with(text(),'Log')]")
 	WebElement Loginbtn1;
 
-	@FindBy(xpath ="//input[@id='loginFormEmail']")
+	@FindBy(xpath ="//input[@id='si_popup_email']")
 	WebElement enterEmail;
 
-	@FindBy(xpath ="//input[@id='loginPassword']")
+	@FindBy(xpath ="//input[@id='si_popup_passwd']")
 	WebElement enterPass;
 
 	@FindBy(xpath ="//p[contains(text(),'Email address')]")
 	WebElement emailmsg;
 
-	@FindBy(xpath ="//p[contains(text(),'Enter Password')]")
+	@FindBy(xpath ="//p[@id='passwdErrorr']")
 	WebElement passmsg;
-	
+
 	@FindBy(xpath ="//p[contains(text(),'Sign In Failed. Invalid login credentials.')]")
 	WebElement validationmsg;
 
 	
 	By HomePageLogin=By.xpath("//button[contains(text(),'Log')]");
-	By Loginbtn=By.xpath("//button[starts-with(text(),'LOG')]");
+	By Loginbtn=By.xpath("//button[starts-with(text(),'Login')]");
 	// get email message from web elements
 
 	String path;

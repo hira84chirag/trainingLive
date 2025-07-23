@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ipltesting.RobotExample">
+      <class name="Live_testcases.EdurekaLogin">
         <methods>
-          <include name="robotExample"/>
+          <include name="Edureka"/>
         </methods>
-      </class> <!-- ipltesting.RobotExample -->
+      </class> <!-- Live_testcases.EdurekaLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
